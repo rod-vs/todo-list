@@ -4,9 +4,9 @@
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  body {
+}
+
+body {
     background: linear-gradient(135deg, #e9f0f7 0%, #d6e4f0 100%);
     padding: 30px 20px;
     max-width: 600px;
@@ -14,10 +14,10 @@
     color: #2a3a59;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-  
-  /* Encabezados */
-  h1 {
+}
+
+/* Encabezados */
+h1 {
     text-align: center;
     color: #162841;
     margin-bottom: 15px;
@@ -25,44 +25,44 @@
     font-size: 2.4rem;
     letter-spacing: 1px;
     text-shadow: 0 1px 3px rgba(22, 40, 65, 0.2);
-  }
-  
-  p {
+}
+
+p {
     text-align: center;
     margin-bottom: 30px;
     font-weight: 600;
     color: #405974;
     font-size: 1.1rem;
     letter-spacing: 0.02em;
-  }
-  
-  /* Formulario */
-  form {
+}
+
+/* Formulario */
+form {
     background-color: #fff;
     padding: 30px 30px 35px;
     border-radius: 15px;
     box-shadow: 0 12px 25px rgba(26, 42, 64, 0.12);
     transition: box-shadow 0.3s ease;
-  }
-  
-  form:hover {
+}
+
+form:hover {
     box-shadow: 0 16px 40px rgba(26, 42, 64, 0.2);
-  }
-  
-  label {
+}
+
+label {
     display: block;
     margin: 14px 0 8px;
     font-weight: 700;
     color: #32425c;
     letter-spacing: 0.02em;
     user-select: none;
-  }
-  
-  /* Inputs y select */
-  input[type="text"],
-  input[type="date"],
-  textarea,
-  select {
+}
+
+/* Inputs y select */
+input[type="text"],
+input[type="date"],
+textarea,
+select {
     width: 100%;
     padding: 14px 16px;
     border: 2px solid #a9b7d6;
@@ -74,54 +74,54 @@
     box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
     transition: border-color 0.4s ease, box-shadow 0.4s ease;
     outline-offset: 2px;
-  }
-  
-  input[type="text"]:focus,
-  input[type="date"]:focus,
-  textarea:focus,
-  select:focus {
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+textarea:focus,
+select:focus {
     border-color: #3b7ddd;
     box-shadow: 0 0 8px rgba(59, 125, 221, 0.5);
     background-color: #fff;
-  }
-  
-  textarea {
+}
+
+textarea {
     resize: vertical;
     min-height: 100px;
     line-height: 1.4;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  /* Fieldset y legend */
-  fieldset {
+}
+
+/* Fieldset y legend */
+fieldset {
     border: none;
     margin-top: 20px;
     padding: 0;
-  }
-  
-  legend {
+}
+
+legend {
     font-weight: 800;
     margin-bottom: 12px;
     color: #32425c;
     font-size: 1.1rem;
     letter-spacing: 0.03em;
-  }
-  
-  fieldset label {
+}
+
+fieldset label {
     font-weight: 600;
     margin-right: 25px;
     color: #536b8a;
     cursor: pointer;
     user-select: none;
     transition: color 0.3s ease;
-  }
-  
-  fieldset label:hover {
+}
+
+fieldset label:hover {
     color: #3b7ddd;
-  }
-  
-  /* Botón */
-  button {
+}
+
+/* Botón */
+button {
     margin-top: 25px;
     background-color: #3b7ddd;
     color: white;
@@ -135,15 +135,15 @@
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 6px 12px rgba(59, 125, 221, 0.4);
     letter-spacing: 0.03em;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #2a5bc4;
     box-shadow: 0 8px 20px rgba(42, 91, 196, 0.6);
-  }
-  
-  /* Lista de tareas */
-  #listaTareas .tarea {
+}
+
+/* Lista de tareas */
+#listaTareas .tarea {
     background-color: #fff;
     border-left: 8px solid #3b7ddd;
     margin-bottom: 22px;
@@ -151,31 +151,31 @@
     border-radius: 12px;
     box-shadow: 0 4px 14px rgba(59, 125, 221, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  #listaTareas .tarea:hover {
+}
+
+#listaTareas .tarea:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 24px rgba(59, 125, 221, 0.25);
-  }
-  
-  #listaTareas .tarea h3 {
+}
+
+#listaTareas .tarea h3 {
     margin-bottom: 14px;
     color: #162841;
     font-weight: 700;
     font-size: 1.3rem;
     letter-spacing: 0.03em;
-  }
-  
-  #listaTareas .tarea p {
+}
+
+#listaTareas .tarea p {
     margin-bottom: 10px;
     color: #5a6a8d;
     font-size: 1.05rem;
     line-height: 1.5;
     letter-spacing: 0.01em;
-  }
-  
-  /* Título de la lista */
-  #tituloListaTareas {
+}
+
+/* Título de la lista */
+#tituloListaTareas {
     text-align: center;
     color: #162841;
     margin-bottom: 30px;
@@ -183,5 +183,87 @@
     font-size: 1.75rem;
     letter-spacing: 0.04em;
     text-shadow: 0 1px 2px rgba(22, 40, 65, 0.15);
-  }
-  
+}
+
+/* --- Diseños extras agregados --- */
+
+/* Estado completado de la tarea */
+.tarea.completada {
+    border-left-color: #4caf50;
+    background-color: #f0fdf4;
+    box-shadow: 0 4px 14px rgba(76, 175, 80, 0.15);
+}
+
+.tarea.completada h3,
+.tarea.completada p {
+    color: #2e7d32;
+    text-decoration: line-through;
+}
+
+/* Botón eliminar tarea */
+.btn-eliminar {
+    background-color: #e55353;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(229, 83, 83, 0.4);
+    letter-spacing: 0.02em;
+    float: right;
+}
+
+.btn-eliminar:hover {
+    background-color: #c44242;
+    box-shadow: 0 6px 15px rgba(196, 66, 66, 0.6);
+}
+
+/* Mensaje de tareas vacías */
+#listaTareas.empty::before {
+    content: "No hay tareas por mostrar";
+    display: block;
+    text-align: center;
+    color: #8393a9;
+    font-style: italic;
+    padding: 30px 0;
+}
+
+/* Animación para nueva tarea */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+#listaTareas .tarea {
+    animation: slideIn 0.4s ease forwards;
+}
+
+/* Scroll suave para lista larga */
+#listaTareas {
+    max-height: 350px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+/* Personalización scrollbar para WebKit */
+#listaTareas::-webkit-scrollbar {
+    width: 8px;
+}
+
+#listaTareas::-webkit-scrollbar-thumb {
+    background-color: #3b7ddd;
+    border-radius: 6px;
+}
+
+#listaTareas::-webkit-scrollbar-track {
+    background: transparent;
+}
