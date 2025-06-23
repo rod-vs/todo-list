@@ -8,10 +8,55 @@
 </head>
 <body>
   <h1>Mi Lista de Tareas</h1>
-  <p>Nombre del estudiante: __________________________</p>
+  <p>Nombre del estudiante: Rodnny Moreno </p>
 
-  <!-- Aquí irá el formulario y la lista generada con JavaScript -->
+  <main>
+    <section class="task-form-section">
+      <form id="taskForm">
+        <div class="form-group">
+          <label for="taskName">Nombre de la tarea (máx 25 caracteres)*:</label>
+          <input type="text" id="taskName" name="taskName" maxlength="25" required placeholder="Entrega de informe" />
+        </div>
+
+        <div class="form-group">
+          <label for="dueDate">Fecha de entrega*:</label>
+          <input type="date" id="dueDate" name="dueDate" required />
+        </div>
+
+        <div class="form-group">
+          <label for="description">Descripción:</label>
+          <textarea id="description" name="description" rows="4" placeholder="Describe la tarea con detalle."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="taskType">Tipo*:</label>
+          <select id="taskType" name="taskType" required>
+            <option value="" disabled selected>Seleccione un tipo</option>
+            <option value="Universidad">Universidad</option>
+            <option value="Personal">Personal</option>
+            <option value="Trabajo">Trabajo</option>
+            <option value="Hobby">Hobby</option>
+          </select>
+        </div>
+
+        <fieldset class="form-group">
+          <legend>Prioridad*:</legend>
+          <label><input type="radio" name="priority" value="Urgente" required /> Urgente</label>
+          <label><input type="radio" name="priority" value="Normal" /> Normal</label>
+          <label><input type="radio" name="priority" value="Baja" /> Baja</label>
+        </fieldset>
+
+        <button type="submit" id="addTaskBtn">Agregar tarea</button>
+      </form>
+    </section>
+
+    <section id="taskListSection">
+      <h2>Lista de Tareas</h2>
+      <div id="listaTareas"></div>
+    </section>
+  </main>
 
   <script src="app.js"></script>
 </body>
 </html>
+

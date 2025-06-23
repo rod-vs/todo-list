@@ -1,0 +1,136 @@
+/* Colores... */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #e9f0f7; 
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #1a2a40; 
+    margin-bottom: 10px;
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #3b4a67; 
+  }
+  
+  form {
+    background-color: #ffffff;
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(26, 42, 64, 0.15);
+    margin-bottom: 30px;
+  }
+  
+  label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: 600;
+    color: #2a3a59;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1.5px solid #a9b7d6; 
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    background-color: #f9fbfd;
+  }
+  
+  input[type="text"]:focus,
+  input[type="date"]:focus,
+  textarea:focus,
+  select:focus {
+    border-color: #3b7ddd; 
+    background-color: #fff;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  fieldset {
+    border: none;
+    margin-top: 15px;
+    padding: 0;
+  }
+  
+  legend {
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #2a3a59;
+  }
+  
+  fieldset label {
+    font-weight: 500;
+    margin-right: 20px;
+    color: #3b4a67;
+    cursor: pointer;
+  }
+  
+  button {
+    margin-top: 20px;
+    background-color: #3b7ddd; 
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(59, 125, 221, 0.3);
+  }
+  
+  button:hover {
+    background-color: #2a5bc4; 
+    box-shadow: 0 6px 12px rgba(42, 91, 196, 0.5);
+  }
+  
+  /* Estilo para tareas agregadas */
+  #listaTareas .tarea {
+    background-color: #ffffff;
+    border-left: 6px solid #3b7ddd;
+    margin-bottom: 18px;
+    padding: 18px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(59, 125, 221, 0.1);
+  }
+  
+  #listaTareas .tarea h3 {
+    margin-bottom: 10px;
+    color: #1a2a40;
+  }
+  
+  #listaTareas .tarea p {
+    margin-bottom: 8px;
+    color: #4a5a7a;
+    font-size: 1rem;
+  }
+  
+  /* Título centrado */
+  #tituloListaTareas {
+    text-align: center;
+    color: #1a2a40;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
